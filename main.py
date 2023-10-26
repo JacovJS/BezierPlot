@@ -8,7 +8,7 @@ z = np.random.random_sample((3,))
 cells = 100
 cps = np.size(x, 0)
 seg = cps - 1
-i = 
+i = np.linspace(0,1, cells)
 t = np.linspace(0,1, cells)
 b = []
 
