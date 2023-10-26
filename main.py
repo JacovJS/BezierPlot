@@ -23,7 +23,7 @@ def bernsteinFunct(seg, i , t):
   basis = np.array(binom_coeff(seg, i) * (t ** i ) * (1 - t) ** (n - i))
   return basis
 
-for k in range(0l, seg):
+for k in range(0, seg):
   b.append(bernsteinFunct(seg, i , t))
   bezier_x = bernsteinFunct(seg, i , t) * x[k] + bezier_x
   bezier_y = bernsteinFunct(seg, i , t) * y[k] + bezier_y
